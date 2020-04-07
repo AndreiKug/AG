@@ -18,7 +18,7 @@
 
 
 //<Шрифт по умолчанию>==========================================================================================
-$fontfamily:"";
+$fontfamily:"Arial";
 //</Шрифт по умолчанию>==========================================================================================
 
 //</ШРИФТЫ>=======================================================================================================
@@ -41,7 +41,7 @@ aside,nav,footer,header,section{display: block;}
 html,body{height: 100%;margin: 0;padding: 0;min-width: $minwidth;position: relative;width: 100%;color: #000;}
 body{font-size: 100%;line-height: 1;font-size: 14px;font-family: $fontfamily;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;
 	&.lock{overflow: hidden;
-		@media (max-width:$md3+px){
+		@media (max-width:$md3){
 			width: 100%;
 			position: fixed;
 			overflow: hidden;
